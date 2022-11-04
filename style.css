@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: #ffeab6;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 30px auto;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.card-box {
+    display: flex;
+}
+
+.price {
+    font-size: 50px;
+    padding-right: 20px;
+}
+
+.month {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+    align-self: center;
+}
+
+.bill {
+    margin-bottom: 40px;
+}
+
+.s-bill {
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px 40px;
+    color: black;
+    background-color: #fff;
+    font-weight: 600;
+    width: 90%;
+    display: block;
+    text-align: center;
+}
+
+.plan {
+    margin-top: 30px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.card-item {
+    margin-bottom: 80px;
+}
+
+.card-list {
+    list-style: none;
+    display: flex;
+}
+
+.card-title {
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.s-extension {
+    border-bottom: 2px dotted #000;
+}
