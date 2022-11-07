@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 40px 50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+
+.paste {
+    padding-top: 20px;
+}
+
+.paste ol, .soup ol {
+    padding-left: 20px;
+}
+
+.photos {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px;
+    list-style: none;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+
